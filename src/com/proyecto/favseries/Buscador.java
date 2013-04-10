@@ -25,18 +25,27 @@ public class Buscador extends Principaldos {
 	private String listview_array[] = { 
 			"Anatomía de Grey", 
 			"Bones", 
-			"Cálico Electrónico", 
+			"Cálico Electrónico",
+			"Como conoci a vuestra madre", 
 			"Dexter", 
 			"El Equipo A",
+			"Family Guy",
 			"Friends", 
-			"Glee", 
+			"Glee",
+			"Gossip Girl",
 			"Heidi", 
+			"House",
 			"Imperium", 
 			"Jericho",
+			"Juego de Tronos", 
 			"Kim Possible",
 			"La Familia Addams",
 			"Modern Family",
-			"Naruto"};
+			"Mujeres Desesperadas",
+			"Naruto",
+			"Revenge", 
+			"Supernatural",
+			"The Big Bang Theory" };
 	
 	
 	

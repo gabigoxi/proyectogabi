@@ -25,6 +25,7 @@
         <activity android:name="com.proyecto.favseries.Principaldos"></activity>
         <activity android:name="Buscador"></activity>
         <activity android:name="Seriesmomento"></activity>
+        <activity android:name="MisSeries"></activity>
     </application>
 
 </manifest>

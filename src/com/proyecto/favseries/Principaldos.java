@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Principaldos extends Principal {
 	
-	private Button bn1,bn2;
+	private Button bn1,bn2,bn3;
 	
 	
 	@Override
@@ -18,6 +18,7 @@ public class Principaldos extends Principal {
 		
 	bn1 = (Button) findViewById(R.id.button1);
 	bn2 = (Button) findViewById(R.id.button2);
+	bn3 = (Button) findViewById(R.id.button3);
 		
 		
 		bn1.setOnClickListener(new OnClickListener(){
@@ -36,6 +37,14 @@ public class Principaldos extends Principal {
 			startActivity(i2);
 			}
 		});
+		
+		bn3.setOnClickListener(new OnClickListener(){
+			
+			public void onClick(View view) {
+				Intent  i2 = new Intent(Principaldos.this, MisSeries.class);
+				startActivity(i2);
+				}
+			});
 		
 	}
 }
