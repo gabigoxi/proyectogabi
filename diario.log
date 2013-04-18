@@ -20,3 +20,13 @@ la información buscada.
 -Añadidas más series a la Activity "Buscar Serie" para ampliar el catálogo de series.
 
 -Buscar más datos de series para la Base de Datos 
+
+
+18/04/2013
+
+-Añadidas Activitys Buscar_serie_lista, Series_momento_lista
+-Añadidos los layout buscar_item, seriesmomento_item, list_view_item_buscar, list_view_item_momento
+-Añadidos los values buscar_values, series_momento_values
+-Cambio de los String array en las Activitys por los string-array en los values
+-Cambio de diseño en los botones de las aplicaciones (tamaño,estilo negrita...)
+-Cambio de color en algunas Activitys y añadidas las estrellas RatingBar para puntuar las series

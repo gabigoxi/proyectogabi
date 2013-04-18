@@ -13,6 +13,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="130dp"
+        android:textStyle="bold"
         android:drawableBottom="@drawable/lupa"
         android:text="Buscar Serie" />
 
@@ -24,6 +25,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="30dp"
+        android:textStyle="bold"
         android:drawableBottom="@drawable/estrella"
         android:text="Series del momento" />
 
@@ -35,6 +37,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/button2"
         android:layout_marginTop="30dp"
+        android:textStyle="bold"
         android:drawableBottom="@drawable/claqueta"
         android:text="Mis Series" />
 

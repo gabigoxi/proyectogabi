@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+        
+  <TextView android:id="@+id/textviewbuscar"
+            android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="#1F5BD1"
+        android:textColor="#000000" android:shadowColor="#8a6603"
+        android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button9"
+      android:layout_width="wrap_content"
+      android:layout_height="85px"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/ratingBar1"
+      android:layout_marginTop="140dp"
+      android:text="Añadir Serie a: Mis Series"
+      android:textSize="12dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button10"
+      android:layout_width="wrap_content"
+      android:layout_height="85px"
+      android:layout_alignBaseline="@+id/button9"
+      android:layout_alignBottom="@+id/button9"
+      android:layout_alignParentRight="true"
+      android:text="Volver a la lista de Series"
+      android:textSize="12dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button13"
+      android:layout_width="110px"
+      android:layout_height="70px"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/ratingBar1"
+      android:layout_marginTop="70dp"
+      android:layout_marginRight="14dp"
+      android:text="Puntuar" />
+
+  <RatingBar
+      android:id="@+id/ratingBar1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:numStars="3"
+      android:stepSize="1.0"
+      android:layout_centerVertical="true" />
+
+</RelativeLayout>

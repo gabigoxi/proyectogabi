@@ -26,6 +26,8 @@
         <activity android:name="Buscador"></activity>
         <activity android:name="Seriesmomento"></activity>
         <activity android:name="MisSeries"></activity>
+        <activity android:name="Buscar_serie_lista"></activity>
+        <activity android:name="Series_momento_lista"></activity>
     </application>
 
 </manifest>
