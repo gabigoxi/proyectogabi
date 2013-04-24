@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="capitulos">
+        <item>Capitulo: 1</item>
+        <item>Capitulo: 2</item>
+        <item>Capitulo: 3</item>
+        <item>Capitulo: 4</item>
+        <item>Capitulo: 5</item>
+        <item>Capitulo: 6</item>
+        <item>Capitulo: 7</item>
+        <item>Capitulo: 8</item>
+        <item>Capitulo: 9</item>
+        <item>Capitulo: 10</item>
+        <item>Capitulo: 11</item>
+        <item>Capitulo: 12</item>
+        <item>Capitulo: 13</item>
+        <item>Capitulo: 14</item>
+        <item>Capitulo: 15</item>
+        <item>Capitulo: 16</item>
+        <item>Capitulo: 17</item>
+        <item>Capitulo: 18</item>
+        <item>Capitulo: 19</item>
+        <item>Capitulo: 20</item>
+        <item>Capitulo: 21</item>
+        <item>Capitulo: 22</item>
+        <item>Capitulo: 23</item>
+        <item>Capitulo: 24</item>
+        <item>Capitulo: 25</item>
+        <item>Capitulo: 26</item>
+        <item>Capitulo: 27</item>
+        <item>Capitulo: 28</item>
+        <item>Capitulo: 29</item>
+        <item>Capitulo: 30</item>
+        <item>Capitulo: 31</item>
+        <item>Capitulo: 32</item>
+        <item>Capitulo: 33</item>
+        <item>Capitulo: 34</item>
+        <item>Capitulo: 35</item>
+        <item>Capitulo: 36</item>
+        <item>Capitulo: 37</item>
+        <item>Capitulo: 38</item>
+        <item>Capitulo: 39</item>
+        <item>Capitulo: 40</item>
+    </string-array>
+</resources>

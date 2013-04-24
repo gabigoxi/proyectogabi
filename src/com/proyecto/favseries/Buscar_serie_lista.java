@@ -10,60 +10,27 @@ import android.widget.RatingBar;
 import android.widget.RatingBar.OnRatingBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
  
 public class Buscar_serie_lista extends Activity{
 	
-	private RatingBar ratingBar1;
-	Button bn9,bn10,bn13;
+	
+	Button bn9,bn10,bn16;
+	 
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.list_view_item_buscar);
         
-        addListenerOnRatingBar();
-        addListenerOnButton();
-        
-    }
-        
-        public void addListenerOnRatingBar() {
-        	 
-        	ratingBar1 = (RatingBar) findViewById(R.id.ratingBar1);
-        	
-          	ratingBar1.setOnRatingBarChangeListener(new OnRatingBarChangeListener() {
-        		public void onRatingChanged(RatingBar ratingBar, float rating,
-        			boolean fromUser) {
-        			
-        			
-         
-        		}
-        	});
+     
           	
-        }
-        
-          	public void addListenerOnButton() {
-          		 
-          		ratingBar1 = (RatingBar) findViewById(R.id.ratingBar1);
-          		bn13 = (Button) findViewById(R.id.button13);
-          	 
-          		//if click on me, then display the current rating value.
-          		bn13.setOnClickListener(new OnClickListener() {
-          	 
-          			@Override
-          			public void onClick(View v) {
-          	 
-          				Toast.makeText(Buscar_serie_lista.this,
-          					String.valueOf(ratingBar1.getRating()),
-          						Toast.LENGTH_SHORT).show();
-          	 
-          			}
-          	 
-          		});
-          
         
         bn9 = (Button) findViewById(R.id.button9);
         bn10 = (Button) findViewById(R.id.button10);
-        bn13 = (Button) findViewById(R.id.button13);
+        bn16 = (Button) findViewById(R.id.button16);
+       
         
         bn9.setOnClickListener(new OnClickListener(){
 			
@@ -87,11 +54,22 @@ public class Buscar_serie_lista extends Activity{
 				
 				Toast toastvolver =
 			            Toast.makeText(getApplicationContext(),
-			                    "Catálogo de de FavSeries", Toast.LENGTH_SHORT);
+			                    "Catálogo de FavSeries", Toast.LENGTH_SHORT);
 			 
 			        toastvolver.show();
 				
 				Intent  i2 = new Intent(Buscar_serie_lista.this, Buscador.class);
+				startActivity(i2);
+			}
+			
+		});
+        
+        bn16.setOnClickListener(new OnClickListener(){
+			
+			public void onClick(View view) {
+				
+				
+				Intent  i2 = new Intent(Buscar_serie_lista.this, Tempocap.class);
 				startActivity(i2);
 			}
 			

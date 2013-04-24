@@ -11,15 +11,16 @@ import android.widget.Toast;
  
 public class Series_momento_lista extends Activity{
 	
-	Button bn11,bn12;
+	Button bn11,bn12,bn14;
 	
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.list_view_item_momento);
         
         bn11 = (Button) findViewById(R.id.button11);
         bn12 = (Button) findViewById(R.id.button12);
+        bn14 = (Button) findViewById(R.id.button14);
         
         bn11.setOnClickListener(new OnClickListener(){
 			
@@ -48,6 +49,17 @@ public class Series_momento_lista extends Activity{
 			        toastvolver.show();
 				
 				Intent  i2 = new Intent(Series_momento_lista.this, Buscador.class);
+				startActivity(i2);
+			}
+			
+		});
+        
+        bn14.setOnClickListener(new OnClickListener(){
+			
+			public void onClick(View view) {
+				
+				
+				Intent  i2 = new Intent(Series_momento_lista.this, Tempocap.class);
 				startActivity(i2);
 			}
 			

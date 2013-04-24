@@ -16,25 +16,37 @@
         android:textStyle="bold" />
 
 
-<Button
-      android:id="@+id/button11"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignParentBottom="true"
-      android:layout_alignParentLeft="true"
-      android:textSize="12dp"
-      android:textStyle="bold"
-      android:layout_marginBottom="134dp"
-      android:text="Añadir Serie a: Mis Series" />
+ <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="85px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="Añadir Serie a: Mis Series"
+        android:textSize="12dp"
+        android:textStyle="bold" />
 
-  <Button
-      android:id="@+id/button12"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBottom="@+id/button11"
-      android:textSize="12dp"
-      android:textStyle="bold"
-      android:layout_alignParentRight="true"
-      android:text="Volver a la lista de Series" />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="85px"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentRight="true"
+        android:text="Volver a la lista de Series"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Ir a la lista de capitulos"
+        android:textSize="12dp"
+        android:textStyle="bold" />
   
   </RelativeLayout>

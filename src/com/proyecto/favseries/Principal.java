@@ -7,6 +7,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -76,21 +77,34 @@ public class Principal extends Activity {
 		AlertDialog alert = builder.create();
 		alert.show();
 			
-			
-
 		}
 	});
 	
-	
 	}
 	
-	
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_principal, menu);
 		return true;
 	}
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.acercade:
+		 Intent intentAcercade = new Intent(Principal.this, AcercaDe.class);
+		 startActivity(intentAcercade);
+		return true;
 
+		}
+		return false;
+	}
+		
+		public void lanzarAcercade(){
+	    	Intent i = new Intent(this, AcercaDe.class);
+	    	startActivity(i);
+	    	
+	    }
+	
 }
+

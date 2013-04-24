@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="temporadas">
+        <item>Temporada: 1</item>
+        <item>Temporada: 2</item>
+        <item>Temporada: 3</item>
+        <item>Temporada: 4</item>
+        <item>Temporada: 5</item>
+        <item>Temporada: 6</item>
+        <item>Temporada: 7</item>
+        <item>Temporada: 8</item>
+        <item>Temporada: 9</item>
+        <item>Temporada: 10</item>
+        <item>Temporada: 11</item>
+        <item>Temporada: 12</item>
+        <item>Temporada: 13</item>
+        <item>Temporada: 14</item>
+        <item>Temporada: 15</item>
+        <item>Temporada: 16</item>
+        <item>Temporada: 17</item>
+        <item>Temporada: 18</item>
+        <item>Temporada: 19</item>
+        <item>Temporada: 20</item>
+    </string-array>
+    
+    </resources>

@@ -30,3 +30,14 @@ la información buscada.
 -Cambio de los String array en las Activitys por los string-array en los values
 -Cambio de diseño en los botones de las aplicaciones (tamaño,estilo negrita...)
 -Cambio de color en algunas Activitys y añadidas las estrellas RatingBar para puntuar las series
+
+
+24/04/2013
+
+-Añadida la Activity Tempocap para poder visualizar la pantalla con los Strings.
+-Añadidos los Strings Capitulos y Temporadas con una plantilla de 20 Temporadas y 40 Capitulos para cada serie.
+-Añadidos los Spinner para poder visualizar la lista de temporadas y capitulos.
+-Añadidos los botones para acceder a la lista de capitulos y temporadas
+-Añadidos los botones para guardar el capitulo y la temporada por la que va el usuario.
+-Añadida la Activity AcercaDe con su layout y la opción en menú para visualizar el "Acerca de" de la APP una vez que se pincha en el menú correspondiente.
+-Quitado el RatingBar y su botón Puntuar correspondiente de manera provisional hasta la futura implantación una vez que la serie sea añadida a la lista de mis series.

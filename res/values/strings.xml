@@ -4,5 +4,8 @@
     <string name="app_name">FavSeries</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="text_menu_acercade">Acerca de</string>
+    <string name="acerca">Aplicación desarrollada por Gabriel Yangüez</string>
+    
 
 </resources>
