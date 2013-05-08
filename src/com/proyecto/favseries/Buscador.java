@@ -19,6 +19,7 @@ public class Buscador extends ListActivity {
  
         // String
         String[] buscar_series = getResources().getStringArray(R.array.buscar_series);
+        
  
         // ArrayList
         this.setListAdapter(new ArrayAdapter<String>(this, R.layout.buscar_item, R.id.label2, buscar_series));
@@ -32,14 +33,18 @@ public class Buscador extends ListActivity {
  
               // item seleccionado
               String product = ((TextView) view).getText().toString();
- 
+             
               
               Intent i = new Intent(getApplicationContext(), Buscar_serie_lista.class);
               // envio de datos a la otra Activity
               i.putExtra("product", product);
               startActivity(i);
- 
+              
+            
           }
+          
+          
         });
     }
 }
+        

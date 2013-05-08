@@ -77,12 +77,15 @@ public class Buscar_serie_lista extends Activity{
         
       
         TextView txtProduct = (TextView) findViewById(R.id.textviewbuscar);
- 
+      
         Intent i = getIntent();
         // getting attached intent data
         String product = i.getStringExtra("product");
         // displaying selected product name
         txtProduct.setText(product);
- 
+     
+        
     }
+
 }
+    

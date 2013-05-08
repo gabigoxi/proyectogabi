@@ -9,12 +9,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
  
-public class Series_momento_lista extends Activity{
+public class Series_momento_lista extends Activity {
 	
 	Button bn11,bn12,bn14;
 	
     @Override
-	protected void onCreate(Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.list_view_item_momento);
         
@@ -48,7 +48,7 @@ public class Series_momento_lista extends Activity{
 			 
 			        toastvolver.show();
 				
-				Intent  i2 = new Intent(Series_momento_lista.this, Buscador.class);
+				Intent  i2 = new Intent(Series_momento_lista.this, Seriesmomento.class);
 				startActivity(i2);
 			}
 			

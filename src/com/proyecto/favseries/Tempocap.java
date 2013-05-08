@@ -18,14 +18,21 @@ import android.widget.Toast;
 
 
 
-public class Tempocap extends Series_momento_lista {
+
+public class Tempocap extends Activity {
 	
 	private Button bn15;
+	void showToast(CharSequence msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+    }
 	
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
 		setContentView(R.layout.temporadascapitulos);
+		
+		
 		
 		bn15 = (Button) findViewById(R.id.button15);
 		
@@ -47,17 +54,48 @@ public class Tempocap extends Series_momento_lista {
 			
 				
 		Spinner s1 = (Spinner) findViewById(R.id.tem);
+		
 		ArrayAdapter spinner_adapter1 = ArrayAdapter.createFromResource( this, R.array.temporadas , android.R.layout.simple_spinner_item);
 		spinner_adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		s1.setAdapter(spinner_adapter1);
+		 s1.setOnItemSelectedListener(
+	                new OnItemSelectedListener() {
+	                    public void onItemSelected(
+	                            AdapterView<?> parent, View view, int position, long id) {
+	                        
+	                    }
+
+	                    public void onNothingSelected(AdapterView<?> parent) {
+	                        
+	                    }
+	                });
 		
-	
+		
 		Spinner s2 = (Spinner) findViewById(R.id.cap);
 		ArrayAdapter spinner_adapter2= ArrayAdapter.createFromResource( this, R.array.capitulos , android.R.layout.simple_spinner_item);
 		spinner_adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		s2.setAdapter(spinner_adapter2);
+		s2.setOnItemSelectedListener(
+                new OnItemSelectedListener() {
+                    public void onItemSelected(
+                            AdapterView<?> parent, View view, int position, long id) {
+                        
+                    }
+
+                    public void onNothingSelected(AdapterView<?> parent) {
+                        
+                    }
+                });
 	
 	
 	}
+	
+	@Override    
+	protected void onSaveInstanceState( Bundle savedInstanceState){
+	super.onSaveInstanceState(savedInstanceState);
 
+
+	}
+	
 }
+	

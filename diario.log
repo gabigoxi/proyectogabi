@@ -41,3 +41,13 @@ la información buscada.
 -Añadidos los botones para guardar el capitulo y la temporada por la que va el usuario.
 -Añadida la Activity AcercaDe con su layout y la opción en menú para visualizar el "Acerca de" de la APP una vez que se pincha en el menú correspondiente.
 -Quitado el RatingBar y su botón Puntuar correspondiente de manera provisional hasta la futura implantación una vez que la serie sea añadida a la lista de mis series.
+
+
+7/05/2013
+
+-Añadido layout Info para hacer pruebas con los textos de las serie y su correspondiente Activity.
+-MEjorados los spinner y cambiando el texto y tamaño
+-Añadidos nuevos Toast para la mejora de informacion al cambiar de Activity
+-Añadido string-array con textos de la serie para hacer pruebas de funcionamiento.
+-Finalizada busqueda de información para la BD y las series listadas en la APP. Previsión de comienzo base de datos a partir del dia 11 de mayo.
+-Terminada tambien la busqueda de imagenes para cada serie y busqueda de informacion para añadir imagenes a la BD

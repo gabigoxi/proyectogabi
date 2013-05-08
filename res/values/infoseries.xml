@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info">
+        <item>Juego de Tronos es una serie muy molona</item>
+        <item>Como conoci a vuestra madre habla de ligar</item>
+        <item>The Big Bang Theory es gente muuuuy friki</item>
+        <item>House</item>
+        <item>Gossip Girl</item>
+        <item>Modern Family</item>
+        <item>Revenge</item>
+        <item>Mujeres Desesperadas</item>
+        <item>Family Guy</item>
+        <item>Supernatural</item>
+        <item>The Walking Dead</item>
+        <item>Los Simpson</item>
+        <item>Futurama</item>
+    </string-array>
+</resources>
