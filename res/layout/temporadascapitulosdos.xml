@@ -6,7 +6,7 @@
     android:background="@drawable/fondonegro" >
 
     <TextView
-        android:id="@+id/textViewTituloCapitulos"
+        android:id="@+id/textViewTituloCapitulos2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Temporadas y Capitulos"
@@ -18,29 +18,29 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Spinner
-        android:id="@+id/cap"
+        android:id="@+id/cap2"
         android:layout_width="240px"
         android:layout_height="80px"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/tem"
+        android:layout_alignTop="@+id/tem2"
         android:textSize="5dp"
         android:textStyle="bold" />
 
     <Spinner
-        android:id="@+id/tem"
+        android:id="@+id/tem2"
         android:layout_width="240px"
         android:layout_height="80px"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textViewTituloCapitulos"
+        android:layout_below="@+id/textViewTituloCapitulos2"
         android:layout_marginTop="38dp"
         android:textSize="5dp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/cap"
+        android:layout_below="@+id/cap2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="155dp"
         android:text="Guardar"

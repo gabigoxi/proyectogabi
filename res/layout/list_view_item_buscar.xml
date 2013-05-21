@@ -8,10 +8,10 @@
         android:id="@+id/textviewbuscar"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#1F5BD1"
+        android:background="#000000"
         android:padding="10dp"
         android:shadowColor="#8a6603"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold" />
     
@@ -69,5 +69,13 @@
          android:layout_marginTop="74dp"
          android:text=""
          android:visibility="visible" />
+     
+      <ImageView android:id="@+id/feed_image"
+        android:layout_width="60dp" 
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:paddingRight="3dp"
+        android:paddingLeft="2dp"/>
+ 
 
 </RelativeLayout>

@@ -3,20 +3,19 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondoazul" >
+    android:background="@drawable/fondonegro" >
+    
+    <EditText android:id="@+id/buscador2"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:hint="Nombre de la serie a buscar">
+</EditText>
 
     <ListView
         android:id="@+id/listview2"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent"
+        android:visibility="visible" >
     </ListView>
-
-    <ImageView
-        android:id="@+id/seriesfotos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="10dp" />
 
 </LinearLayout>

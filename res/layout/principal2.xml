@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context=".Principal"
-    android:background="@drawable/fondoazulnuevo" >
+    android:background="@drawable/fondoazulnuevo7" >
 
     <Button
         android:id="@+id/button1"
@@ -15,6 +15,7 @@
         android:layout_marginTop="130dp"
         android:textStyle="bold"
         android:textSize="15sp"
+        android:background="@drawable/color_button"
         android:drawableBottom="@drawable/lupa"
         android:text="Buscar Serie" />
 
@@ -28,6 +29,7 @@
         android:layout_marginTop="30dp"
         android:textStyle="bold"
         android:textSize="15sp"
+        android:background="@drawable/color_button"
         android:drawableBottom="@drawable/estrella"
         android:text="Series del momento" />
 
@@ -41,6 +43,7 @@
         android:layout_marginTop="30dp"
         android:textStyle="bold"
         android:textSize="15sp"
+        android:background="@drawable/color_button"
         android:drawableBottom="@drawable/claqueta"
         android:text="Mis Series" />
 

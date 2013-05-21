@@ -30,7 +30,7 @@ public class Series_momento_lista extends Activity {
 			            Toast.makeText(getApplicationContext(),
 			                    "Serie añadida!", Toast.LENGTH_SHORT);
 			 
-			        toastañadir.show();
+				toastañadir.show();
 				
 				Intent  i1 = new Intent(Series_momento_lista.this, MisSeries.class);
 				startActivity(i1);
@@ -59,7 +59,7 @@ public class Series_momento_lista extends Activity {
 			public void onClick(View view) {
 				
 				
-				Intent  i2 = new Intent(Series_momento_lista.this, Tempocap.class);
+				Intent  i2 = new Intent(Series_momento_lista.this, Tempocapdos.class);
 				startActivity(i2);
 			}
 			

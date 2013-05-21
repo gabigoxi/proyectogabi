@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:visibility="visible"
-    android:background="@drawable/fondoazul" >
+    android:background="@drawable/fondonegro" >
     
      <EditText android:id="@+id/buscador"
 			android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
 </EditText>
 
     <ListView
-        android:id="@+id/listview"
+        android:id="@+id/listviewbuscar"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:visibility="visible" >

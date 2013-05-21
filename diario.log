@@ -51,3 +51,22 @@ la información buscada.
 -Añadido string-array con textos de la serie para hacer pruebas de funcionamiento.
 -Finalizada busqueda de información para la BD y las series listadas en la APP. Previsión de comienzo base de datos a partir del dia 11 de mayo.
 -Terminada tambien la busqueda de imagenes para cada serie y busqueda de informacion para añadir imagenes a la BD
+
+
+20/05/2013
+
+-Eliminada pantalla principal de FavSeries y sustituida por Splash Screen para visualizacion más llamativa
+-Creada la Activity SplashPrincipal
+-Cambios en la manera de coger los datos de los spinner temporadas y capitulos. Ahora los datos los coge desde la misma Activity
+-Añadida la funcion de filtrado en Buscador y en Seriesmomento
+-Cambiada la estetica de la APP por completo.
+-Añadido SharedPreferences en Tempocap y Tempocapdos para que se guarden los estados de los spinners al abrir de nuevo la aplicacion
+-Añadido el "Acerca de" y modificado su estetica
+-Actualizacion en el Androidmanifest con los cambios y las nuevas Activitys creadas
+
+
+*Lo que queda para dar básicamente por acabada la APP:
+
+-Terminar la Base de Datos
+-Añadir función al boton "Añadir Serie" y que el objeto vaya a la pantalla "Mis Series"
+-Crear objetos para que el mismo spinner pueda ser utilizado para cada serie.

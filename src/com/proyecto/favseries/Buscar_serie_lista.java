@@ -6,17 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.RatingBar.OnRatingBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
  
 public class Buscar_serie_lista extends Activity{
 	
 	
 	Button bn9,bn10,bn16;
+	
 	 
 	
     @Override
@@ -24,9 +28,7 @@ public class Buscar_serie_lista extends Activity{
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.list_view_item_buscar);
         
-     
-          	
-        
+       
         bn9 = (Button) findViewById(R.id.button9);
         bn10 = (Button) findViewById(R.id.button10);
         bn16 = (Button) findViewById(R.id.button16);
