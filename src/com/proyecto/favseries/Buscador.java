@@ -17,6 +17,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
  
@@ -30,17 +31,21 @@ public class Buscador extends Activity {
    // ArrayList<HashMap<String, String>> productList;
     
     
+  
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buscarserie);
+         
         
      // String
         buscar_series = getResources().getStringArray(R.array.buscar_series);
+        buscar_series = ((FavSeriesApplication)getApplication()).getSeriesbuscar();
         listaSeries = (ListView)findViewById(R.id.listviewbuscar);
         buscador = (EditText)findViewById(R.id.buscador);
         
         adaptador = new AdaptadorLista(Buscador.this, R.layout.buscar_item, buscar_series);
         listaSeries.setAdapter(adaptador);
+        
         
         buscador.addTextChangedListener(new TextWatcher() {
             @Override
@@ -68,13 +73,14 @@ public class Buscador extends Activity {
  
         	  
               // item seleccionado
-             intentString = buscar_series[position];
+             //intentString = buscar_series[position];
              
               
               Intent i = new Intent(Buscador.this, Buscar_serie_lista.class);
             //   envio de datos a la otra Activity
-             i.putExtra("product", intentString);
-             startActivity(i);
+             //i.putExtra("product", intentString);
+             i.putExtra("POSITION", position);
+              startActivity(i);
               
             
           }

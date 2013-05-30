@@ -1,0 +1,72 @@
+21/03/2013
+
+
+-A día de hoy, tengo avanzado en el proyecto lo que es la parte
+estética (las pantallas de las que constará la Aplicación).
+
+-Falta más que nada crear la Base de Datos y luego retocar aún mas la parte estética.
+
+-Cada día busco poco a poco información de las series para recopilar datos y
+poder hacer próximamente la Base de Datos.
+
+-Horas aproximadas de lo hecho hasta ahora (en casa): 10h. Entre la Aplicación y
+la información buscada.
+
+
+10/04/2013
+
+-Añadida la Activity y el layout de la opción "Mis Series"
+
+-Añadidas más series a la Activity "Buscar Serie" para ampliar el catálogo de series.
+
+-Buscar más datos de series para la Base de Datos 
+
+
+18/04/2013
+
+-Añadidas Activitys Buscar_serie_lista, Series_momento_lista
+-Añadidos los layout buscar_item, seriesmomento_item, list_view_item_buscar, list_view_item_momento
+-Añadidos los values buscar_values, series_momento_values
+-Cambio de los String array en las Activitys por los string-array en los values
+-Cambio de diseño en los botones de las aplicaciones (tamaño,estilo negrita...)
+-Cambio de color en algunas Activitys y añadidas las estrellas RatingBar para puntuar las series
+
+
+24/04/2013
+
+-Añadida la Activity Tempocap para poder visualizar la pantalla con los Strings.
+-Añadidos los Strings Capitulos y Temporadas con una plantilla de 20 Temporadas y 40 Capitulos para cada serie.
+-Añadidos los Spinner para poder visualizar la lista de temporadas y capitulos.
+-Añadidos los botones para acceder a la lista de capitulos y temporadas
+-Añadidos los botones para guardar el capitulo y la temporada por la que va el usuario.
+-Añadida la Activity AcercaDe con su layout y la opción en menú para visualizar el "Acerca de" de la APP una vez que se pincha en el menú correspondiente.
+-Quitado el RatingBar y su botón Puntuar correspondiente de manera provisional hasta la futura implantación una vez que la serie sea añadida a la lista de mis series.
+
+
+7/05/2013
+
+-Añadido layout Info para hacer pruebas con los textos de las serie y su correspondiente Activity.
+-MEjorados los spinner y cambiando el texto y tamaño
+-Añadidos nuevos Toast para la mejora de informacion al cambiar de Activity
+-Añadido string-array con textos de la serie para hacer pruebas de funcionamiento.
+-Finalizada busqueda de información para la BD y las series listadas en la APP. Previsión de comienzo base de datos a partir del dia 11 de mayo.
+-Terminada tambien la busqueda de imagenes para cada serie y busqueda de informacion para añadir imagenes a la BD
+
+
+20/05/2013
+
+-Eliminada pantalla principal de FavSeries y sustituida por Splash Screen para visualizacion más llamativa
+-Creada la Activity SplashPrincipal
+-Cambios en la manera de coger los datos de los spinner temporadas y capitulos. Ahora los datos los coge desde la misma Activity
+-Añadida la funcion de filtrado en Buscador y en Seriesmomento
+-Cambiada la estetica de la APP por completo.
+-Añadido SharedPreferences en Tempocap y Tempocapdos para que se guarden los estados de los spinners al abrir de nuevo la aplicacion
+-Añadido el "Acerca de" y modificado su estetica
+-Actualizacion en el Androidmanifest con los cambios y las nuevas Activitys creadas
+
+
+*Lo que queda para dar básicamente por acabada la APP:
+
+-Terminar la Base de Datos
+-Añadir función al boton "Añadir Serie" y que el objeto vaya a la pantalla "Mis Series"
+-Crear objetos para que el mismo spinner pueda ser utilizado para cada serie.

@@ -11,6 +11,7 @@
         android:background="@drawable/color_button"
         android:textColor="#000000"
         android:textStyle="bold"
+        android:textSize="13sp"
         android:text="@string/acerca"/>
 
 </LinearLayout>

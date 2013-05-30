@@ -7,7 +7,7 @@
     android:background="#000000"
     android:padding="10dp"
     android:shadowColor="#8a6603"
-    android:textColor="#FFFFFF"
+    android:textColor="#FF7C00"
     android:textSize="22sp"
     android:textStyle="bold" >
 

@@ -1,6 +1,8 @@
 package com.proyecto.favseries;
 
 
+import com.proyecto.favseries.Buscador.AdaptadorLista;
+
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
@@ -20,8 +22,9 @@ import android.widget.TextView;
  
 
 public class Seriesmomento extends Activity {
-	
+	private ListView listaSeries2;
 	AdaptadorLista2 adaptador2;
+	private EditText buscador2;
 	String intentString;
 	String[] series_momento;
 	
@@ -30,16 +33,18 @@ public class Seriesmomento extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seriesmomento);
         
-       EditText buscador2 = (EditText)findViewById(R.id.buscador2);
-        ListView listaSeries2 = (ListView)findViewById(R.id.listview2);
+    //   EditText buscador2 = (EditText)findViewById(R.id.buscador2);
+     //   ListView listaSeries2 = (ListView)findViewById(R.id.listview2);
         
  
         // String
         series_momento = getResources().getStringArray(R.array.series_momento);
+        series_momento = ((FavSeriesApplication)getApplication()).getSeriesmomento();
+        listaSeries2 = (ListView)findViewById(R.id.listview2);
+        buscador2 = (EditText)findViewById(R.id.buscador2);
         
         adaptador2 = new AdaptadorLista2(Seriesmomento.this, R.layout.seriesmomento_item, series_momento);
-        listaSeries2.setAdapter((ListAdapter) adaptador2);
-        listaSeries2.setTextFilterEnabled(true);
+        listaSeries2.setAdapter(adaptador2);
  
         
         listaSeries2.setOnItemClickListener(new OnItemClickListener() {
@@ -47,13 +52,14 @@ public class Seriesmomento extends Activity {
               int position, long id) {
  
               // item seleccionado
-        	  intentString = series_momento[position];
+        	  //intentString = series_momento[position];
  
               
-              Intent i = new Intent(getApplicationContext(), Series_momento_lista.class);
-              // envio de datos a la otra Activity
-              i.putExtra("product", intentString);
-              startActivity(i);
+        	  Intent i = new Intent(Seriesmomento.this, Series_momento_lista.class);
+              //   envio de datos a la otra Activity
+               //i.putExtra("product", intentString);
+               i.putExtra("POSITION2", position);
+                startActivity(i);
           }
         });
         
