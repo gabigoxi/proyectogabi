@@ -6,11 +6,7 @@
     android:visibility="visible"
     android:background="@drawable/fondonegro" >
     
-     <EditText android:id="@+id/buscador"
-			android:layout_height="wrap_content"
-			android:layout_width="fill_parent"
-			android:hint="Nombre de la serie a buscar">
-</EditText>
+    
 
     <ListView
         android:id="@+id/listviewbuscar"
