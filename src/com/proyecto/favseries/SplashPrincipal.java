@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,11 +17,12 @@ import android.widget.Button;
 
 
 	public class SplashPrincipal extends Activity {
-	    private static final int SPLASH_TIME = 5 * 2000;// 3 seconds
+	    private static final int SPLASH_TIME = 5 * 2000;
 	 
 	    @Override
 	    protected void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
+	        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 	        setContentView(R.layout.splash);
 	        try {
 	        new Handler().postDelayed(new Runnable() {
@@ -28,7 +30,7 @@ import android.widget.Button;
 	            public void run() {
 	                 
 	                Intent intent = new Intent(SplashPrincipal.this,
-	                    Principaldos.class);
+	                    Principalbotones.class);
 	                startActivity(intent);
 	 
 	                SplashPrincipal.this.finish();    

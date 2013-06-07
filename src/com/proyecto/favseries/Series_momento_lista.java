@@ -2,6 +2,7 @@ package com.proyecto.favseries;
  
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
@@ -14,22 +15,23 @@ import android.widget.Toast;
 public class Series_momento_lista extends Activity {
 	
 	Button bn11,bn12,bn14;
-	
 	ImageView feed_image2;
-	Drawable img2;
+	 private final String BUNDLE2 = "Bundle2";
+	 private final String BUNDLE_TEMPCAP2 = "BundleTempCap2";
+	 FavSeriesApplication objeto2;
 	
     @Override
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         this.setContentView(R.layout.list_view_item_momento);
         
-        int position2 = getIntent().getIntExtra("POSITION2", 0);
-        
-        img2 = getDrawableResource(position2);
-        
-        feed_image2 = (ImageView) findViewById(R.id.feed_image2);
-        
-        feed_image2.setImageDrawable(img2);
+        Bundle bundle = getIntent().getExtras();
+        if(bundle != null){
+        	objeto2 = bundle.getParcelable(BUNDLE2);
+	        
+	        feed_image2 = (ImageView) findViewById(R.id.feed_image2);
+	        feed_image2.setImageResource(objeto2.getBanner());
         
         bn11 = (Button) findViewById(R.id.button11);
         bn12 = (Button) findViewById(R.id.button12);
@@ -39,14 +41,14 @@ public class Series_momento_lista extends Activity {
 			
 			public void onClick(View view) {
 				
-				Toast toastañadir =
+				Toast toastmisseries =
 			            Toast.makeText(getApplicationContext(),
-			                    "Serie añadida!", Toast.LENGTH_SHORT);
+			                    "Opción disponible en un futuro!", Toast.LENGTH_SHORT);
 			 
-				toastañadir.show();
+				toastmisseries.show();
 				
-				Intent  i1 = new Intent(Series_momento_lista.this, MisSeries.class);
-				startActivity(i1);
+				//Intent  i1 = new Intent(Series_momento_lista.this, MisSeries.class);
+				//startActivity(i1);
 			}
 	
 		});
@@ -72,7 +74,10 @@ public class Series_momento_lista extends Activity {
 			public void onClick(View view) {
 				
 				
+				Bundle bundle = new Bundle();
 				Intent  i2 = new Intent(Series_momento_lista.this, Tempocapdos.class);
+				bundle.putParcelable(BUNDLE_TEMPCAP2, objeto2);
+				i2.putExtras(bundle);
 				startActivity(i2);
 			}
 			
@@ -80,67 +85,19 @@ public class Series_momento_lista extends Activity {
        
  
         TextView txtProduct = (TextView) findViewById(R.id.textviewmomento);
- 
-
+        
         
         // getting attached intent data
-        String nombre = ((FavSeriesApplication)getApplication()).getSeriesmomento()[position2];//i.getStringExtra("product");
-        String sinopsis = ((FavSeriesApplication)getApplication()).getSinopsismomento()[position2];
+        
+        String nombre = objeto2.getNombre();//i.getStringExtra("product");
+        String sinopsis = objeto2.getSinopsis();
         // displaying selected product name
         txtProduct.setText(nombre);
         ((TextView) findViewById(R.id.textviewmomento2)).setText(sinopsis);
+
         
+        }
     }
-
-    private Drawable getDrawableResource(int position){
-		Drawable result = null;
-		int id = 0;
-
-		switch(position){
-		
-		case 0:
-			id = R.drawable.tronosbanner;
-			break;
-			
-		case 1:
-			id = R.drawable.comoconocibanner;
-			break;
-			
-		case 2:
-			id = R.drawable.bigbangbanner;
-			break;
-			
-		case 3:
-			id = R.drawable.housebanner;
-			break;
-			
-		case 4:
-			id = R.drawable.gossipbanner;
-			break;
-			
-		case 5:
-			id = R.drawable.modernfamilybanner;
-			break;
-			
-		case 6:
-			id = R.drawable.desperatebanner;
-			break;
-			
-		case 7:
-			id = R.drawable.wakingdeadbanner;
-			break;
-			
-		case 8:
-			id = R.drawable.simpsonbanner;
-			break;
-	
-		}
-	
-	result = getResources().getDrawable(id);
-	return result;
-    
-    }
-    
 }
 
 

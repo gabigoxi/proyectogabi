@@ -27,4 +27,188 @@
     <item name="android:shadowRadius">2</item>
 </style>
 
+    
+    <string name="anatomiaGrey">Anatomia de Grey</string>
+    <string name="anatomiaGreySinopsis">La vida de Meredith Grey no es nada fácil. Intenta tomar las riendas de su vida,
+        aunque su trabajo sea de esos que te hacen la vida imposible. Meredith es una cirujana interna de primer año 
+        en el Hospital Grace de Seattle, el programa de prácticas más duro de la Facultad de Medicina de Harvard. 
+        Y ella lo va a comprobar. Pero no estará sola. Un elenco de compañeros de promoción tendrán que superar la
+         misma prueba. Ahora están en el mundo real, son doctores del hospital. Y en un mundo donde la experiencia 
+         en el trabajo puede ser un factor de vida o muerte, todos ellos tendrán que lidiar con los altibajos de 
+         sus vidas personales.</string>
+   <string name="arrow">Arrow</string>
+    <string name="arrowSinopsis">Después de un violento naufragio y tras haber desaparecido y creído muerto durante cinco años, 
+        el multimillonario playboy Oliver Queen (Stephen Amell) es rescatado con vida en una isla del Pacífico. De vuelta en casa en Starling City, 
+        Oliver es recibido por su madre, su hermana y su mejor amigo, quienes rápidamente notan que la terrible experiencia sufrida lo ha cambiado. 
+        Por otra parte, Oliver trata de ocultar la verdad acerca de en quién se ha convertido mientras trata de enmendar los errores que cometió en 
+        el pasado y de reconciliarse con su ex novia.</string>
+   <string name="bones">Bones</string>
+    <string name="bonesSinopsis">La Dra. Temperance Brennan (Emily Deschanel) es una excelente antropóloga forense 
+	    que trabaja para el Instituto Jeffersonian y además es escritora de novelas. Generalmente interviene en investigaciones 
+	    de asesinatos cuando los métodos utilizados ya no son suficientes. Posee una extraordinaria habilidad para descifrar 
+	    claves ocultas en los cuerpos de las víctimas. Brennan trabaja junto al agente Seeley Booth (David Boreanaz) de 
+	    la unidad de Investigaciones de Homicidios del FBI. Booth, un agente formado en la armada, no cree en la ciencia ni 
+	    en los científicos.</string>
+	<string name="breaking">Breaking Bad</string>
+    <string name="breakingSinopsis">Walter White es un esforzado profesor de química de preparatoria (secundaria, high school), padre de Walter White Jr, 
+	    un joven discapacitado, y esposo de Skyler White quien presenta un incipiente embarazo. Cuando la vida ya le era bastante 
+	    complicada para Walter, le diagnostican un cáncer pulmonar terminal, lo que le lleva a quebrantar la ley e instalar un 
+	    laboratorio de metanfetamina con su antiguo estudiante Jesse Pinkman para así asegurar el bienestar económico de su familia 
+	    cuando el ya no esté.</string>
+	<string name="calico">Cálico Electrónico</string>
+    <string name="calicoSinopsis">Cálico Electrónico es una serie cómica de animación Flash distribuida gratuitamente a través 
+	    de Internet. Ambientada en una metrópolis llamada «Electronic City», el protagonista es un superhéroe de figura contraria 
+	    a la clásica (bajito, gordinflón y sin superpoderes) y de nacionalidad «aspañola» (que es una parodia de la nacionalidad 
+	    española), que una y otra vez arriesga su vida para salvar a la ciudad. Asimismo en todos los capítulos adquiere diversos 
+	    artilugios en la tienda ElectronicaWeb.</string>
+	<string name="castle">Castle</string>
+    <string name="castleSinopsis">Richard Castle, es un escritor de novelas de misterio, cuya inspiración le viene a 
+        raíz de las consultas que realiza al departamento de policía de Nueva York, ciudad en la que transcurre la acción. Pero cuando un asesino en serie 
+        comienza a reproducir los asesinatos que Rick escribe en suS novelas, a Castle no le quedará otro remedio que ayudar al departamento de policía de 
+        Nueva York, en el que está la atractiva y brillante detective Kate Beckett, a intentar atrapar al asesino. </string>
+	<string name="comoconoci">Como conoci a vuestra madre</string>
+    <string name="comoconociSinopsis">CCAVM comienza con la voz en off de Ted en el año 2030, cuando relata 
+	    a sus dos hijos adolescentes cómo conoció a su madre y cuáles fueron sus vivencias hasta que, por fin, encontró el amor 
+	    verdadero. Todo tuvo lugar cuando Marshall, el mejor amigo del protagonista, decide pedirle a Lily, su novia de toda la 
+	    vida, que se case con él. Ted se da cuenta de que él también debe apresurarse si quiere encontrar el amor verdadero y 
+	    formar una familia, para lo que cuenta con Barney, el compañero perfecto para dicha búsqueda. </string>
+	<string name="dexter">Dexter</string>
+    <string name="dexterSinopsis">Serie de suspense que narra la historia de un hombre extraño llamado Dexter Morgan. Cuando era niño, 
+	    Dexter fue maltratado y abandonado por sus padres, ahora es un exitoso e importante forense patológico... pero bajo su 
+	    carismática personalidad, se esconde una terrible verdad. Dexter ha canalizado sus innatas necesidades homicidas en una 
+	    segunda profesión que guarda celosamente en secreto: buscar, dar caza y asesinar brutalmente a despiadados criminales 
+	    que han conseguido evitar caer en las garras de la ley.</string>
+	<string name="doshombresymedio">Dos hombres y medio</string>
+    <string name="doshombresymedioSinopsis">Charlie Harper un soltero que tiene todo lo que un hombre necesita: Dinero, un Jaguar en el garaje 
+        y mujeres. Su informal estilo de vida en Malibú, es interrupida drásticamente con la llegada de su hermano Alan quien está muy deprimido 
+        tras afrontar un divorcio, y de su hijo de 10 años, Jake, que se mudan para quedarse a vivir con él. De este modo, juntos inician un camino 
+        en el que deben afrontar los retos e ir madurando poco a poco.</string>
+	<string name="equipoa"> El Equipo A</string>
+    <string name="equipoaSinopsis">En 1972, al Equipo A, una unidad de fuerzas especiales de Vietnam, le fue asignada una misión secreta 
+	    para robar el Banco de Hanoi. Desafortunadamente, el cuartel general del Equipo A fue bombardeado, matando al coronel Morrison, 
+	    el oficial que autorizó la misión. En la época en la que se inicia la serie (los años 80), el equipo A ha estado huyendo de los 
+	    militares por más de 10 años y trabajan como soldados de fortuna, ayudando a quienes les necesiten.</string>
+	<string name="eraseunavez"> Érase una vez</string>
+    <string name="eraseunavezSinopsis">Emma Swan (Jennifer Morrison) vive una vida solitaria en la que trabaja como cazarrecompensas en Boston. 
+        El día de su vigésimo octavo cumpleaños a Emma se le acerca un niño de 10 años que dice ser su hijo, Henry (Jared S. Gilmore), al que había dado en adopción cuando era un bebé.
+         Emma no quiere establecer una relación con él, aunque acepta llevarlo de vuelta a su casa en Storybrooke, (Maine). Durante el camino Henry le enseña un gran libro 
+         de cuentos de hadas, insistiendo en que todos los cuentos son reales. </string>
+    <string name="family">Family Guy</string>
+    <string name="familySinopsis">"Family Guy" es una serie de humor negro e irreverente que con el tiempo ha conseguido un gran número 
+	    de seguidores. La serie gira en torno a las aventuras de Peter Griffin y su disfuncional familia. Peter es un obrero de juguetes 
+	    irresponsable y fiestero, Lois es ama de casa y profesora de piano. Tienen tres hijos que son: Chris que es un muchacho de reacción 
+	    mental lenta pero lleva un artista por dentro, Megan que es una adolescente rechazada en la escuela y el bebe diabolico con planes 
+	    de conquistar al mundo Stewie. También vive con ellos un perro que habla de nombre Brian.</string>
+	<string name="friends">Friends</string>
+    <string name="friendsSinopsis">Ross (David Schwimmer), Rachel (Jennifer Aniston), Mónica (Courtney Cox), Chandler (Matthew Perry), Joey 
+	    (Matt LeBlanc) y Phoebe (Lisa Kudrow) forman un grupo de seis amigos veinteañeros -luego treintañeros- de Nueva York que luchan por 
+	    salir adelante en la competitiva y poblada jungla de Manhattan. Trabajo, familia, responsabilidad, dinero, sexo, compromiso... 
+	    y sobre todo el amor y la amistad eran los temas sobre los que versaban las aventuras y desventuras de estos simpático jóvenes 
+	    en plena etapa hacia la madurez.</string>
+	<string name="fringe">Fringe</string>
+    <string name="fringeSinopsis">Cuando el vuelo 627 aterriza con todo el pasaje y la tripulación muerta, la Agente del FBI Olivia Dunham es 
+        llamada para inverstigar los hechos. Todos los muertos parecen haberse "derretido" fruto de un agente contagioso por el aire. Todo apunta 
+        a un acto terrorista, pero poco a poco se darán cuenta de que hay cosas que están por encima del terrorismo e incluso por encima de la propia imaginación. 
+        ¿Que pasaría si la ciencia llegara a evolucionar hasta tal punto que no pudieramos controlarla?</string>
+	<string name="futurama">Futurama</string>
+    <string name="futuramaSinopsis">Ganadora de tres premios Emmy, fue creada por Matt Groening y David X Cohen, creadores también de la exitosa 
+	    serie de animación Los Simpsons. Esta atrevida y original serie, que está cargada del humor que caracteriza a sus creadores, cuenta 
+	    las aventuras de un grupo de peculiares personajes que, en el Nueva York del año 3000, intentan salvar el mundo. Futurama no es una 
+	    utopía, sino una forma poco idealista de plasmar la forma de vida del año 3000, en el que los humanos siguen lidiando con los mismos 
+	    conflictos que existen en el siglo XXI. </string>
+	<string name="gossip">Gossip Girl</string>
+    <string name="gossipSinopsis">Gossip Girl es una serie de la CW del prolífico Josh Schwartz. Las historias de Gossip Girl son contadas a través de los ojos de una bloguera que se mantiene anónima. 
+       En la serie, ella tendrá la voz de Kristen Bell, de Veronica Mars. La niña cotilla del título sigue con ávido interés las vidas de los jóvenes y ricos miembros de la privilegiada alta sociedad de Nueva York. 
+       Las aventuras de esos adolescentes generalmente girarán alrededor del sexo, las drogas, una angustia teen ya conocida por otras series como la misma The O.C. y una interminable red de conflictos amorosos. </string>
+    <string name="heidi">Heidi</string>
+    <string name="heidiSinopsis">Descubre con esta serie, las aventuras de Heidi, una niña encantadora que vive en las montañas con su abuelo y 
+	    donde compartirá su amor por la naturaleza con sus amigos Pedro, Clara y su perro Niebla. </string>
+	<string name="homeland">Homeland</string>
+    <string name="homelandSinopsis">Cuando el Sargento de los Marines Nicholas Brody, desaparecido en combate, regresa convertido en un héroe ocho años después de ser 
+        capturado en Irak, la brillante pero inestable agente de la CIA Carrie Mathison no cree en su historia. Ella piensa que Brody trabaja para al-Qaeda y puede estar 
+        conectado con una trama terrorista cuyo objetivo es atacar el territorio estadounidense. Comienza entonces una persecución con la seguridad del país en juego. 
+        </string>
+	<string name="house">House</string>
+    <string name="houseSinopsis">Dr. Gregory House, un complicado médico especialista en enfermedades infecciosas el cual se rehúsa a visitar a 
+	    sus enfermos. Cojo por un infarto en su pierna derecha el cual le causo una necrosis muscular 
+	    por lo que sufre un dolor intenso y crónico que lo obliga a usar bastón y que lo convirtió en un adicto a la vicodina. La serie está 
+	    ambientada en un hospital universitario de Princeton llamado Princeton-Plainsboro, donde Gregory House dirige una unidad especial, 
+	    encargada de pacientes afectados por enfermedades extrañas. </string>
+	<string name="imperium">Imperium</string>
+    <string name="imperiumSinopsis">Galba es un hombre poderoso y respetado en Roma. Cuenta con el apoyo de los senadores más importantes, 
+	    encabezados por el senador Quinto... y por ello le han encargado una última campaña; acabar con la resistencia de Numancia. 
+	    Galba parte hacia allí convencido de su victoria y de que eso le otorgará, a su regreso, el reconocimiento definitivo. 
+	    Pero Galba regresa de la campaña en Numancia derrotado, humillado... Los hispanos han acabado con su ejército. Galba ha 
+	    perdido su honor y, sobre todo, su poder en Roma. Y no ha sido casual; alguien le ha traicionado.  </string>
+	<string name="jericho">Jericho</string>
+    <string name="jerichoSinopsis">La serie narra los hechos acontecidos tras aparecer en el horizonte de un pequeño pueblo una formación 
+	    similar a una seta nuclear que los hace creer que ha habido un ataque a gran escala en el país. Los residentes del pueblo sumidos en 
+	    el caos, sin electricidad y aislados del resto del mundo han de lidiar con el pánico, el miedo, la ira y la confusión intentando que 
+	    la vida no se desmorone en su pequeño territorio. Pero los grandes problemas ocasionan que la gente saque lo mejor de si misma y también 
+	    lo peor.  </string>
+	<string name="juego">Juego de Tronos</string>
+    <string name="juegoSinopsis">Adaptación de la serie de novelas de fantasía épica de George R.R. Martin "Canción de hielo y fuego". Este nuevo 
+	    proyecto de la HBO se sumerge en las refriegas de un mundo de reyes, reinas, caballeros, señores y renegados. Todos jugando al único de 
+	    juego que importa: "El Juego de Tronos".  </string>
+	<string name="kim">Kim Possible</string>
+    <string name="kimSinopsis">Kim Possible (voz de Christy Carlson Romano) es todo acerca de un adolescente de secundaria, el equilibrio de la posición 
+	    de porristas capitán, rollo de honor, y muchos más, incluyendo salvar al mundo de los villanos. Por supuesto, todos los héroes necesitan un socio 
+	    ocurrente, torpe. "KP" no es una excepción. El alivio cómico del dúo heroico, Ron (Se Friedle) siempre está ahí para Kim. Me, Beep Me Llama, 
+	    Si me quieres llegar. Guía Carácter: Kim Possible - El personaje principal de la serie. Es un héroe de acción juvenil. Animadora por día, 
+	    combatiente del crimen por la noche. </string>
+	<string name="simpson">Los Simpson</string>
+    <string name="simpsonSinopsis">Creada originalmente por el dibujante Matt Groening, La familia Simpson apareció por primera vez en TV en abril del 87 en ”The Tracey Ullman Show” protagonizando 
+	     una serie de cortos dentro del programa, donde estarían durante 3 años hasta que que en diciembre del 89 se estrenara su propia serie, que es la que hoy 
+	     día conocemos. Las aventuras de la disfuncional familia creada por Mr. Groening se convirtieron en un éxito instantáneo. 
+	     Situados en el pueblo ficticio de Springfield, la serie se centra en las aventuras y desventuras que sufren Homer, Marge, Lisa, Bart, Maggie y los miles de 
+	     personajes secundarios que pululan por Springfield.  </string>
+	<string name="mentes">Mentes Criminales</string>
+    <string name="mentesSinopsis">Una serie de emocionante intriga sobre un grupo de "cazadores de mentes", un escuadrón especial de élite de agentes de la Unidad de Análisis de la Conducta 
+        del FBI, encargados de hacer diversos meticulosos retratos de peligrosos asesinos y otros diversos criminales, que les ayude a lo que esperan que sea el arresto del principal sospechoso 
+        de un crimen determinado. </string>
+	<string name="modernfamily">Modern Family</string>
+    <string name="modernfamilySinopsis">Las familias Pritchett, Delgado y Dunphy acceden a ser entrevistados para hacer un documental. Jay Pritchet conoció a su espectacular mujer colombiana Gloria, cuando le sirvió en bikini en una fiesta 
+	    en la piscina que él mismo organizó el día que lo dejo su mujer.Ahora, Jay y Gloria estan casados y Jay intenta a duras penas aguantar con su espectacular y joven 
+	    mujer y su hijo Manny. Claire Dunphy, su hija, pasa calamidades para levantar su famiília de tres hijos 
+	    revoltosos. Su marido, Phil, es genial si no fuera por el hecho de que intenta hacerse el amigo de sus hijos, hasta el punto de llegar a ser bochornoso.   </string>
+	<string name="mujeres">Mujeres Desesperadas</string>
+    <string name="mujeresSinopsis">En clave de comedia y con grandes dosis de ironía, la serie muestra una realidad en la que tienen cabida la familia, el sexo, las relaciones
+	     personales, los cotilleos de vecindad, las situaciones cotidianas y otros muchos temas, vistos siempre desde la mirada irreverente y maliciosa de un grupo de cuatro 
+	     mujeres.   </string>   
+	<string name="naruto">Naruto</string>
+    <string name="narutoSinopsis">La serie se centra en torno a Uzumaki Naruto, un joven ninja de la aldea oculta de Konoha, del País del Fuego. Naruto es un chico travieso al 
+	    que le gusta llamar la atención, haciendo que el maestro Iruka se enfade. Y debido a esto, no parece que sea capaz de graduarse en la escuela de ninjas. Pero Naruto tiene 
+	    un sueño... convertirse en el jefe de la aldea de ninjas donde vive y así ser el siguiente Hokage, y por consiguiente ser reconocido como el mejor ninja.</string>   
+	<string name="revenge">Revenge</string>
+    <string name="revengeSinopsis">Actualizado al siglo XXI por ciertos comportamientos de sus personajes y por un escenario central, los Hamptons, enclave de la Costa Este norteamericana convertido en paraíso de millonarios y celebridades de las últimas décadas. 
+	    Hasta los Hamptons llega Emily Thorne, identidad falsa de la joven protagonista de la serie, que en realidad responde a otro nombre y que justifica su aparición para ejecutar 
+	    un calculado plan de venganza, destinado a ajustar las cuentas a la comunidad que un par de décadas antes, cuando ella era una niña, defenestró a su padre hasta el punto de
+	     acarrearle la ruina y, a la postre y como consecuencia indirecta, la muerte.</string>
+	<string name="southpark">South Park</string>
+    <string name="southparkSinopsis">South Park es una serie estadounidense de animación con formato sitcom, creada por Trey Parker y Matt Stone para Comedy Central. La serie está destinada a un público adulto, 
+        y se caracteriza por satirizar con humor negro la sociedad, actualidad y cultura estadounidense, a través de las historias y situaciones surrealistas que les suceden a sus protagonistas; cuatro niños 
+        (Stan, Kyle, Eric y Kenny) residentes en un pueblo ficticio de Colorado que se llama South Park.</string>   
+	<string name="spartacus">Spartacus</string>
+    <string name="spartacusSinopsis">Traicionado por su país. Convertido en esclavo. Renacido como guerrero. Spartacus: Blood and Sand es la historia más gráfica y visceral del gladiador más famoso de Roma. 
+	    Presentando un reparto estelar, esta serie presenta una mezcla única de acción, efectos gráficos y brutales batallas. Cuando es separado del amor de su vida, Spartacus es 
+	    forzado a unirse a la arena, donde una dolorosa muerte es el entretenimiento principal.</string>   
+	<string name="supernatural">Supernatural</string>
+    <string name="supernaturalSinopsis">Dos hermanos que siguen los pasos de su padre como "cazadores" que luchan contra seres sobrenaturales de muchos tipos, incluyendo monstruos, 
+	    demonios y dioses que vagan por la tierra.</string>   
+	<string name="bigbang">The Big Bang Theory</string>
+    <string name="bigbangSinopsis">Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina,
+	     y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas. Ambos son brillantes en su trabajo, 
+	     pero tanto ellos como sus amigos Howard Wolowitz, un pseudo-galán sacado de una película psicodélica de los 60, y Rajesh Koothrappali (de nacionalidad india) son representados 
+	     como unos completos Geeks, muy alejados de las inquietudes de la gente corriente. Rajesh tiene la incapacidad para hablar con mujeres.</string>    
+	<string name="thementalist">The Mentalist</string>
+    <string name="thementalistSinopsis">La historia de El Mentalista comienza cuando Patrick Jane, un hombre que se ganaba la vida como médium televisivo y colaboraba de manera puntual 
+        con la policía para atrapar a un asesino en serie, sufre un duro golpe al perder a su mujer y su hija a manos de dicho criminal. A partir de ese momento, Patrick Jane toma la determinación 
+        de dedicarse de lleno a sus habilidades como detective y trabajar en el Departamento de Investigación de Crímenes de California en la resolución de los casos de asesinato. 
+        Él no ve, observa. No oye, escucha. No toca, percibe. No falla.</string> 
+	<string name="walking">The Walking Dead</string>
+    <string name="walkingSinopsis">TWD parte de uno de los cómics más seguidos de los últimos años y cuenta con destacados profesionales al frente de su puesta en imágenes: 
+	    el cineasta Frank Darabont, tres veces nominado al Oscar y autor, es responsable del guión, la producción y la realización. 
+	    Junto a él, completa el equipo de producción la veterana productora Gale Anne Hurd, vinculada a películas de gran presupuesto como Terminator, Alien, Hulk...
+	     The Walking Dead está ambientada en un futuro apocalíptico con la Tierra devastada por el efecto de un cataclismo, que ha provocado la mutación en zombies de la mayor parte de los habitantes 
+	     del planeta.</string>
 </resources>

@@ -13,7 +13,7 @@
          android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#FF7C00"
         android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

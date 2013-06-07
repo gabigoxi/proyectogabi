@@ -18,7 +18,7 @@
         android:shadowColor="#8a6603"
         android:textColor="#FF7C00"
         android:layout_marginTop="2dp"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
     <ScrollView

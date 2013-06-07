@@ -1,11 +1,9 @@
 package com.proyecto.favseries;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 
-public class AcercaDe extends Principal {
+import android.os.Bundle;
+
+public class AcercaDe extends Principalbotones {
 	
 	 @Override
 	    protected void onCreate(Bundle savedInstanceState) {

@@ -1,10 +1,9 @@
 package com.proyecto.favseries;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Button;
 
-public class MisSeries extends Principaldos {
+
+public class MisSeries extends Principalbotones {
 
 	
 	

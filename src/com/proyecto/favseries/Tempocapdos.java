@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
@@ -33,62 +34,22 @@ public class Tempocapdos extends Activity {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 	
+	private final String BUNDLE_TEMPCAP2 = "BundleTempCap2";
+    FavSeriesApplication objeto2;
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.temporadascapitulosdos);
 		
 		
-		final List<String> temporadasmomento =new ArrayList<String>();
-		temporadasmomento.add("Tem.1");
-		temporadasmomento.add("Tem.2");
-		temporadasmomento.add("Tem.3");
-		temporadasmomento.add("Tem.4");
-		temporadasmomento.add("Tem.5");
-		temporadasmomento.add("Tem.6");
-		temporadasmomento.add("Tem.7");
-		temporadasmomento.add("Tem.8");
-		temporadasmomento.add("Tem.9");
-		temporadasmomento.add("Tem.10");
-		temporadasmomento.add("Tem.11");
-		temporadasmomento.add("Tem.12");
-		temporadasmomento.add("Tem.13");
-		temporadasmomento.add("Tem.14");
-		temporadasmomento.add("Tem.15");
-		temporadasmomento.add("Tem.16");
-		temporadasmomento.add("Tem.17");
-		temporadasmomento.add("Tem.18");
-		temporadasmomento.add("Tem.19");
-		temporadasmomento.add("Tem.20");
 		
-		final List<String> capitulosmomento =new ArrayList<String>();
-		capitulosmomento.add("Cap.1");
-		capitulosmomento.add("Cap.2");
-		capitulosmomento.add("Cap.3");
-		capitulosmomento.add("Cap.4");
-		capitulosmomento.add("Cap.5");
-		capitulosmomento.add("Cap.6");
-		capitulosmomento.add("Cap.7");
-		capitulosmomento.add("Cap.8");
-		capitulosmomento.add("Cap.9");
-		capitulosmomento.add("Cap.10");
-		capitulosmomento.add("Cap.11");
-		capitulosmomento.add("Cap.12");
-		capitulosmomento.add("Cap.13");
-		capitulosmomento.add("Cap.14");
-		capitulosmomento.add("Cap.15");
-		capitulosmomento.add("Cap.16");
-		capitulosmomento.add("Cap.17");
-		capitulosmomento.add("Cap.18");
-		capitulosmomento.add("Cap.19");
-		capitulosmomento.add("Cap.20");
-		capitulosmomento.add("Cap.21");
-		capitulosmomento.add("Cap.22");
-		capitulosmomento.add("Cap.23");
-		capitulosmomento.add("Cap.24");
-		capitulosmomento.add("Cap.25");
-		
+		Bundle bundle = getIntent().getExtras();
+        if(bundle != null){
+        	
+        	objeto2 = bundle.getParcelable(BUNDLE_TEMPCAP2);
+       	
 		
 		bn18 = (Button) findViewById(R.id.button18);
 		
@@ -110,10 +71,13 @@ public class Tempocapdos extends Activity {
 			
 				
 			final Spinner s3 =(Spinner) findViewById(R.id.tem2);
-			ArrayAdapter<String> adp4= new ArrayAdapter<String>(this,
-			                                android.R.layout.simple_list_item_1,temporadasmomento);
-			adp4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			s3.setAdapter(adp4);
+			
+			//Creamos el adaptador
+			ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item ,(String[])objeto2.getSpinnertemporadas());
+			//Añadimos el layout para el menú
+			adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			//Le indicamos al spinner el adaptador a usar
+			s3.setAdapter(adapter3);
 
 			prefs2 = getSharedPreferences(prefName3, MODE_PRIVATE);
 			id3=prefs2.getInt("last_val3",0);
@@ -124,6 +88,7 @@ public class Tempocapdos extends Activity {
 			@Override
 			public void onItemSelected(AdapterView<?> arg0, View arg1,int pos, long arg3) {
 			// TODO Auto-generated method stub
+				
 
 			prefs2 = getSharedPreferences(prefName3, MODE_PRIVATE);
 			SharedPreferences.Editor editor = prefs2.edit();
@@ -132,8 +97,6 @@ public class Tempocapdos extends Activity {
 			  
 			//---saves the values---
 			editor.commit();
-
-		//	Toast.makeText(getBaseContext(), s3.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
 			               
 			}
 
@@ -145,11 +108,15 @@ public class Tempocapdos extends Activity {
 			});
 			     
 	
-			final Spinner s4 =(Spinner) findViewById(R.id.cap2);
-			ArrayAdapter<String> adp2= new ArrayAdapter<String>(this,
-			                                android.R.layout.simple_list_item_1,capitulosmomento);
-			adp2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			s4.setAdapter(adp2);
+		 s4 =(Spinner) findViewById(R.id.cap2);
+			
+			//Creamos el adaptador
+			ArrayAdapter<String> adapter4 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item ,(String[])objeto2.getSpinnercapitulos());
+			//Añadimos el layout para el menú
+			adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			//Le indicamos al spinner el adaptador a usar
+			s4.setAdapter(adapter4);
+
 
 			prefs3 = getSharedPreferences(prefName4, MODE_PRIVATE);
 			id4=prefs3.getInt("last_val4",0);
@@ -160,7 +127,8 @@ public class Tempocapdos extends Activity {
 			@Override
 			public void onItemSelected(AdapterView<?> arg0, View arg1,int pos, long arg3) {
 			// TODO Auto-generated method stub
-
+				
+				
 			prefs3 = getSharedPreferences(prefName4, MODE_PRIVATE);
 			SharedPreferences.Editor editor = prefs3.edit();
 			//---save the values in the EditText view to preferences---
@@ -169,7 +137,6 @@ public class Tempocapdos extends Activity {
 			//---saves the values---
 			editor.commit();
 
-		//	Toast.makeText(getBaseContext(), s4.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
 			               
 			}
 
@@ -181,4 +148,6 @@ public class Tempocapdos extends Activity {
 			});
 			
 	}
+}
+	
 }
