@@ -70,3 +70,19 @@ la información buscada.
 -Terminar la Base de Datos
 -Añadir función al boton "Añadir Serie" y que el objeto vaya a la pantalla "Mis Series"
 -Crear objetos para que el mismo spinner pueda ser utilizado para cada serie.
+
+
+29/05/2013
+
+-Añadidas imagenes de los banner de las series
+-Modificado los layouts listview_item_buscar y list_view_item_momento añadiendo los ImageView y los TextView para visualizar las imagenes y sinopsis
+-Creada la clase FavSeriesApplication para guardar los datos (arrays e items) e inizializarlos antes de lo declarado en el manifest.
+-Modificado buscar_serie_lista y series_momento_lista para añadir los ImageView y Drawables para que coja la posicion declarada en FavSeriesApplication de nombre,sinopsis y del banner de imagenes de las series.
+
+
+6/06/2013
+
+
+
+
+

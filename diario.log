@@ -82,7 +82,13 @@ la información buscada.
 
 6/06/2013
 
-
-
+-Añadida memoria en odt y en pdf
+-Añadidas nuevas imágenes para los banners de las nuevas series que he añadido.
+-Ahora las series se encuentran dentro de strings.xml con una etiqueta name por nombre de serie y otra por sinopsis.
+-Añadida la Activity FavSeriesApplication que contiene los String y los Ints y los Getters and Setters para coger el nombre,banner,spinners y sinopsis de string.xml
+-Añadida la Activity FavSeriesApplication_Objects que contiene los arrays con los objetos de nombre de la serie,sinopsis,y las temporadas y capitulos.
+-Modificados los contenidos de los spinners de series y temporadas,ahora cargo su contenido desde la clase FavSeriesApplication_Objects
+-Modificado el tiempo de SplashPrincipal para que no tarde tanto en cargar la app.
+-Añadido en cada Clase setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); para que la aplicación no gire al girar el movil.
 
 
